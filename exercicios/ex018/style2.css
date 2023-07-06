@@ -1,0 +1,19 @@
+@charset "UTF-*";
+
+@font-face {
+    font-family: komi;
+    src: url(KOMIKAX_.ttf) format(truetype);
+    font-size: normal;
+    font-weight: normal;
+}
+body{
+   font-family: komi, Arial, Helvetica, sans-serif; 
+   font-size: 1em;
+   font-weight: normal;
+}
+
+h1 {
+    font-family: Komi, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}
