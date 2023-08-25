@@ -31,16 +31,24 @@
         td.num{
             text-align: right;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: gray;
+        }
+        
     </style>
 </head>
 <body>
     <h1>Uso de Tabelas grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
-                <th>% da População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col">% da População</th>
             </tr>
         </thead>
         <tbody>
@@ -88,7 +96,7 @@
                 <td>Pará</td>
                 <td class="num">8 602 865</td>
                 <td>4,1%</td>
-            </tr> class="num"
+            </tr> 
             <tr>
                 <td>Santa Catarina</td>
                 <td class="num">7 164 788</td>
@@ -182,7 +190,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>210.147.125</strong></td>
                 <td>X</td>
             </tr>
